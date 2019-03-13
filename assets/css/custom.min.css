@@ -227,7 +227,7 @@ body{
 .container-4{
   width: 100%;
   float:left;
-  height: 1340px;
+  /* height: 1340px; */
   background-color: #f4f6fa;
 }
 .container-4 .full-section{
