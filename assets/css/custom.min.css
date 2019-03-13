@@ -27,6 +27,7 @@ body{
 	width:100%;
 	float:left;
 	margin-top:89px;
+	box-sizing: border-box;
 }
 .container-1 .form-content{
 	width: 929px;
@@ -381,7 +382,13 @@ body{
 	text-decoration: none;
 	color: #666;
 }
-
+.container-3 .cta-btn input{
+	color: #53627c;
+    font-weight: bold;
+}
+input[type=button]{
+	cursor:pointer;
+}
 /* Chrome 29+ */
 @media screen and (-webkit-min-device-pixel-ratio:0)
   and (min-resolution:.001dpcm) {
@@ -418,6 +425,8 @@ body{
 		width: 100%;
 		float: left;
 		height: auto;
+		box-sizing: border-box;
+		padding:22px;
 	}
 	.container-1 .disclaimer-txt{
 		float: left;
@@ -500,6 +509,7 @@ body{
 		float: left;
 		width: 100%;
 		padding: 0;
+		margin-left: 15px
 	}
 	.container-4 .full-section ul li{
 		margin-right: 10px;
